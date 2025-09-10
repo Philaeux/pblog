@@ -1,0 +1,17 @@
+services:
+  frontend:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    ulimits:
+      nofile: 5000
+    image: pblog
+
+    container_name: pblog
+    restart: always
+
+    ports:
+      - "8031:80"
+    environment:
+      - NGINX_PORT=80
+

@@ -1,0 +1,52 @@
+{
+  "name": "pblog",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test",
+    "test:ci": "ng test --no-watch --no-progress --code-coverage --browsers=ChromeHeadless"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "^19.0.1",
+    "@angular/cdk": "^19.0.1",
+    "@angular/common": "^19.0.1",
+    "@angular/compiler": "^19.0.1",
+    "@angular/core": "^19.0.1",
+    "@angular/forms": "^19.0.1",
+    "@angular/material": "^19.0.1",
+    "@angular/platform-browser": "^19.0.1",
+    "@angular/platform-browser-dynamic": "^19.0.1",
+    "@angular/router": "^19.0.1",
+    "emoji-toolkit": "^9.0.1",
+    "katex": "^0.16.11",
+    "marked": "^15.0.3",
+    "mermaid": "^11.4.0",
+    "ngx-markdown": "^19.0.0",
+    "prismjs": "^1.29.0",
+    "rxjs": "^7.8.1",
+    "tslib": "^2.8.1",
+    "zone.js": "^0.15.0"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^19.0.2",
+    "@angular/cli": "^19.0.2",
+    "@angular/compiler-cli": "^19.0.1",
+    "@types/jasmine": "^5.1.4",
+    "emoji-toolkit": "^9.0.1",
+    "jasmine-core": "^5.4.0",
+    "karma": "^6.4.4",
+    "karma-chrome-launcher": "^3.2.0",
+    "karma-coverage": "^2.2.1",
+    "karma-jasmine": "^5.1.0",
+    "karma-jasmine-html-reporter": "^2.1.0",
+    "katex": "^0.16.11",
+    "mermaid": "^11.4.0",
+    "prismjs": "^1.29.0",
+    "tslib": "^2.8.1",
+    "typescript": "^5.5.4"
+  }
+}
