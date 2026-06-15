@@ -37,6 +37,28 @@
             ]
         },
         {
+            "name": "charlie_the_unicorn",
+            "sounds": [
+                "adventure",
+                "bl",
+                "blbl",
+                "blblbl",
+                "choochooshoe",
+                "foogoo",
+                "going_on",
+                "make_sense",
+                "no_time_to_explain",
+                "ring_ring",
+                "shun",
+                "sneaky",
+                "stop_that",
+                "the_door",
+                "trust_issues",
+                "wakawrong",
+                "way"
+            ]
+        },
+        {
             "name": "darkest_dungeon",
             "sounds": [
                 "beyond_ones_limit",
